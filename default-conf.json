@@ -1,4 +1,3 @@
 {
-  "api_url": "http://locahost:3000",
-  "s3_bucket_url": "http://upup.s3.amazonaws.com"
+  "s3_bucket_name": "upup"
 }
