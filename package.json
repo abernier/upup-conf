@@ -1,0 +1,19 @@
+{
+  "name": "upup-conf",
+  "version": "0.0.0",
+  "description": "Upup configuration",
+  "main": "index.js",
+  "bin": {
+    "upupconf": "./bin/get.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "rc": "latest",
+    "optimist": "latest"
+  }
+}
