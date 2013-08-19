@@ -1,4 +1,6 @@
-var rc = require('rc');
-var conf = require('./default-conf.json');
+var fs = require('fs');
+var ini = require('ini');
 
-module.exports = rc('upup', conf);
+var defaults = ini.parse(fs.readFileSync('.upuprc-dist', 'utf-8'));
+
+module.exports = require('rc')('upup', defaults);

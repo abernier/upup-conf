@@ -13,7 +13,8 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "rc": "latest",
+    "rc": "0",
+    "ini": "1",
     "optimist": "latest"
   }
 }

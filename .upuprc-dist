@@ -1,0 +1,11 @@
+;
+; Default INI configuration for upup
+;
+
+; Amazon S3
+s3_bucket_name = upup
+
+
+www = http://localhost:3003
+
+api = http://localhost:3000
