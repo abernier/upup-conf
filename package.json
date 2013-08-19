@@ -15,6 +15,6 @@
   "dependencies": {
     "rc": "0",
     "ini": "1",
-    "optimist": "latest"
+    "optimist": "0"
   }
 }
