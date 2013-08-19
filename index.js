@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var ini = require('ini');
 
 var defaults = ini.parse(fs.readFileSync(path.resolve(__dirname, '.upuprc-dist'), 'utf-8'));
