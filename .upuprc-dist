@@ -5,7 +5,13 @@
 ; Amazon S3
 s3_bucket_name = upup
 
+[api]
+http = http://localhost:3000
 
-www = http://localhost:3003
+[www]
+http = http://localhost:3003
+https = http://localhost:3004
 
-api = http://localhost:3000
+[cdn]
+http = http://localhost:3033
+https = http://localhost:3034
