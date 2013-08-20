@@ -5,16 +5,7 @@
 ; Amazon S3
 s3_bucket_name = upup
 
-api = http://localhost:3000
 
 www = http://localhost:3003
-wwws = https://localhost:3004
 
-; CDN
-;
-; Urls are here protocol relative (http://www.paulirish.com/2010/the-protocol-relative-url/)
-;
-; - for http
-cdn[] = //localhost:3033
-; - for https
-cdns[] = //localhost:3034
+api = http://localhost:3000
