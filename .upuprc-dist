@@ -9,3 +9,6 @@ s3_bucket_name = upup
 www = http://localhost:3003
 
 api = http://localhost:3000
+
+box_name_maxlength = 300
+box_description_maxlength = 10000
